@@ -1,0 +1,13 @@
+div {
+    font-size: 40px;
+    color: white;
+    text-shadow: 0 0 15px;
+    width: 600px;
+    height: 300px;
+    border-radius: 30px;
+}
+
+img {
+    width: 70px;
+    height: 70px;
+}
