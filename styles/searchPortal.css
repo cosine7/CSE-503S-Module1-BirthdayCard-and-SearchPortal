@@ -42,6 +42,7 @@ button {
     font-size: 25px;
     color: #FF9900;
     transition: text-shadow 0.3s;
+    padding-left: 0;
 }
 
 button:hover {
