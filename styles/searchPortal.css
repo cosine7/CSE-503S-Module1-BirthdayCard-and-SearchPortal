@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'iconfont';
+    src: url('../iconfont/iconfont.ttf?t=1644462149311') format('truetype');
+}
+
+.iconfont {
+    font-family: 'iconfont' !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+nav {
+    height: 60px;
+}
+
+input, button {
+    height: 35px;
+    box-sizing: border-box;
+    background-color: rgba(255, 255, 255, 0.192);
+    padding: 0 15px;
+    border: 1px solid transparent;
+}
+
+input {
+    color: #E5E5E5;
+    font-size: 20px;
+    width: 400px;
+    border-radius: 15px 0 0 15px;
+    outline: none;
+    border-right: none;
+}
+
+input:focus,
+input:focus + button {
+    border-color: #FF9900;
+}
+
+button {
+    border-radius: 0 15px 15px 0;
+    border-left: none;
+    font-size: 25px;
+    color: #FF9900;
+    transition: text-shadow 0.3s;
+}
+
+button:hover {
+    cursor: pointer;
+    text-shadow: 0 0 5px #FF9900;
+}
